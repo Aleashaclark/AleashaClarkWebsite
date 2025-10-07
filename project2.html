@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Project 2 — Kubernetes Cluster Migration — Aleasha Clark</title>
+  <meta name="description" content="Project 2: Migration to Kubernetes (EKS) with Helm charts and autoscaling.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><div class="brand-bubble">AC</div><div class="brand-text"><h1>Aleasha Clark</h1><small>DevOps</small></div></a>
+      <button id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span class="hamburger"></span></button>
+      <nav id="site-nav" class="nav">
+        <ul>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="project-hero" style="padding:2rem 0;background:var(--card-bg);">
+      <div class="container">
+        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1400&q=80" alt="Kubernetes cluster" style="width:100%;height:340px;object-fit:cover;border-radius:12px;box-shadow:var(--shadow)">
+        <h2 style="margin-top:1rem">Cluster Migration to Kubernetes (EKS)</h2>
+        <p class="lead">Containerized services, deployed Helm charts, and configured autoscaling and monitoring.</p>
+
+        <h3>Overview</h3>
+        <p>Worked on containerizing legacy services, creating Helm charts for repeatable deployments, and migrating workloads to Amazon EKS. Implemented Horizontal Pod Autoscaler (HPA) rules and graceful drain processes for rolling updates.</p>
+
+        <h3>Tech & Tools</h3>
+        <ul>
+          <li>Docker, Kubernetes (EKS), Helm, kube-prometheus-stack</li>
+          <li>CI integration for chart linting and canary releases</li>
+        </ul>
+
+        <h3>Highlights</h3>
+        <ul>
+          <li>Designed Helm chart structure for multi-environment deployments</li>
+          <li>Built CI checks to run `helm lint` and `kubeval` before merge</li>
+          <li>Introduced monitoring dashboards to track service health and latency</li>
+        </ul>
+
+        <p><a class="btn primary" href="index.html#projects">Back to portfolio</a></p>
+      </div>
+    </section>
+  </main>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

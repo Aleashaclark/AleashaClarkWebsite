@@ -1,10 +1,15 @@
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset="[YOUR-DARKMODE-IMAGE](https://png.pngtree.com/png-clipart/20220603/original/pngtree-plants-grown-on-the-balcony-isolated-transparent-background-png-image_7899791.png)">
+ <source media="(prefers-color-scheme: light)" srcset="[YOUR-LIGHTMODE-IMAGE](https://png.pngtree.com/png-clipart/20220603/original/pngtree-plants-grown-on-the-balcony-isolated-transparent-background-png-image_7899791.png)">
+</picture>
+
 #### Aleasha Clark
 #### DevOps 320
 #### 10/07/2025
 
 The purpose of this repo is to hold all of my files associated and needed for my website, and to enable version control aka source control over my website.
 
-### <ins>Steps Taken to set up Git and push code</ins> 🪴
+### <ins>Steps Taken to set up Git and push code</ins> 🪴 
 ```
 1.Installed Git on my local Windows machine. 
 

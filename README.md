@@ -1,31 +1,34 @@
-<picture>
- <source media="(prefers-color-scheme: dark)" srcset="[YOUR-DARKMODE-IMAGE](https://png.pngtree.com/png-clipart/20220603/original/pngtree-plants-grown-on-the-balcony-isolated-transparent-background-png-image_7899791.png)">
- <source media="(prefers-color-scheme: light)" srcset="[YOUR-LIGHTMODE-IMAGE](https://png.pngtree.com/png-clipart/20220603/original/pngtree-plants-grown-on-the-balcony-isolated-transparent-background-png-image_7899791.png)">
-</picture>
+![Profile Pic](https://github.com/Aleashaclark/AleashaClarkWebsite/blob/master/AC_Banner.png)
 
-#### Aleasha Clark
-#### DevOps 320
-#### 10/07/2025
+## Purpose of This Repository
+The purpose of this repository is to:
 
-The purpose of this repo is to hold all of my files associated and needed for my website, and to enable version control aka source control over my website.
+* 📁Store all files associated with my personal website, including HTML,CSS,images, and configuration files.
+* 🔃 Enable version control (aka source control). This allows me to track changes, revert to previous versions, and collaborate more effectively.
+* ✈️Serves as the foundation for deploying and maintaining my site via GitHub Pages or other hosting platforms. 
 
-### <ins>Steps Taken to set up Git and push code</ins> 🪴 
 ```
-1.Installed Git on my local Windows machine. 
+🌺🌺🌺🌺🌺🌺🌺🌺🌺🌺🌺🌺🌺🌺🌺STEPS TAKEN TO SET UP GIT AND PUSH🌺🌺🌺🌺🌺🌺🌺🌺🌺🌺🌺🌺🌺🌺🌺
+```
+```
+1.Installed Git on my local Windows machine - Using this link --> https://git-scm.com/downloads
 
-2.Initialized Git Repo - Navigating to the \\aleashawebsite directory via the command line. Then, ran the git init command.
+2.Initialized Git Repo - Navigated to the \aleashawebsite directory via the command line. Then, ran the git init command.This command will initialize a Git repo in my \aleashawebsite folder.
 
-3.Configured my Git commit credentials - Using these commands --> git config --global user.name Aleasha Clark and git config --global user.email MyEmail. These credentials will be attached to all commits I make globally, meaning regardless of what repo I am in.
+3.Configured my Git commit credentials - Using these commands --> git config --global user.name Aleasha Clark and git config --global user.email aleashaclark356@gmail.com. These credentials will be attached to all commits I make globally. Globally meaning regardless of which repo I am in.
 
-4.Run a few more git commands - git add . will add all of my website files to the staging area. git commit -m "meaningful message" will commit those files in the staged area to my local repo.
+4.Ran a few more git commands - git add . will add all ( The period .) of my website files to the staging area. git commit -m "meaningful message" will commit those files in the staged area to my local repo.
 
 4.Created & Configured a new Repo on GitHub - Set repo name to AleashaClarkWebsite and made public per requirements. 
 
-5.Linked my local repo to my GitHub repo - git remote add origin https://github.com/Aleashaclark/AleashaClarkWebsite.git. This command tells my local repo to push commits to this remote repo.   
+5.Linked my local repo to my GitHub repo - git remote add origin https://github.com/Aleashaclark/AleashaClarkWebsite.git. This command tells my local repo to push commits to the remote repo.   
 
-6.Pushed my local repo commits to my remote repo - git push -u origin master. This command pushed my local repo commits to my remote repo while also specifying that origin master as the default for future pushes.
+6.Pushed local repo commits to remote repo - git push -u origin master. This command pushed the local repo commits to the remote repo while also specifying that origin master as the default for future pushes.
 ```
-### Challenges  
-The only challenge I faced was not knowing a lot of PowerShell commands. I could have easily probably done mostly everything from the GUI, but I wanted to challenge myself and do everything from the PowerShell terminal. I am more familiar with Linux commands. But I used that knowledge to just to do a quick Google search of the commands I needed to do what I needed to do. Such as, creating this README file, adding contents and viewing what I added all from the command line. Was simple to figure out.
+### Challenges 
+Challenges that I faced:
+
+* Not knowing a lot of PowerShell commands - I wanted to challenge myself and do everything from the PowerShell terminal. I am more familiar with Linux commands. However, I used that prior knowledge to do a quick Google search of the commands I needed. Such as, creating this README file, adding contents and viewing what I added all from the command line. Was simple to figure out.
+* Learning the markdown language - Although not required in the assignment specifications. I wanted to play around and challenge myself. I went through the writing on GitHub documentation and experimented with the formatting on my README.md file. I wanted to be creative and add a banner in my file. So I was able to do some google searches and figure out how to do that. I had fun and am looking forward to developing this project.
 
 

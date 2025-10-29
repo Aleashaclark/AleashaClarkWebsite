@@ -31,4 +31,24 @@ Challenges that I faced:
 * Not knowing a lot of PowerShell commands - I wanted to challenge myself and do everything from the PowerShell terminal. I am more familiar with Linux commands. However, I used that prior knowledge to do a quick Google search of the commands I needed. Such as, creating this README file, adding contents and viewing what I added all from the command line. Was simple to figure out.
 * Learning the markdown language - Although not required in the assignment specifications. I wanted to play around and challenge myself. I went through the writing on GitHub documentation and experimented with the formatting on my README.md file. I wanted to be creative and add a banner in my file. So I was able to do some google searches and figure out how to do that. I had fun and am looking forward to developing this project.
 
+```
+🌺🌺🌺🌺🌺🌺🌺🌺🌺🌺🌺🌺🌺🌺🌺STEPS TAKEN TO SET UP GITHUB ACTIONS WORKFLOW🌺🌺🌺🌺🌺🌺🌺🌺🌺🌺🌺🌺🌺🌺
+```
+```
+1. Disabled automatic GitHub Pages Publishing - Settings --> Pages --> Source --> Select GitHub Actions to disable automatic publishing
+2. Created a workflow directory and file - \aleashawebsite--> mkdir .github\workflwows\deploy.yaml
+3. Configured the Workflow - Paste the workflow code into the .yml file
+4. Commit and push chages - git add . --> git commit -m --> git push origin main
+5. Verified deployment - Actions --> Visit pages url to ensure site was live
+```
+### Challenges
+Challenges that I faced:
 
+* I was confused one where to create the workflows folder, because I was missing the .github folder. Initially, only .git was present. I learned that .github needed to be created manually to store workflows/deploy.yaml.
+* I am not very familiar with navigating Windows powershell. I was not sure how to reach the  repo root. I discoverd that I needed to use this command (Set-Location (git rev-parse --show-toplevel)
+
+### How to Trigger Deployment
+How to trigger deployment:
+
+* Automatic Trigger: Push any changes to the default branch(master)and the workflow will run automatically.
+* Manual Trigger: Actions --> (Select) Deploy static content to Pages workflow --> Click Run workflow to trigger it manually

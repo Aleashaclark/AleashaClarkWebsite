@@ -46,6 +46,7 @@ Challenges that I faced:
 
 * I was confused one where to create the workflows folder, because I was missing the .github folder. Initially, only .git was present. I learned that .github needed to be created manually to store workflows/deploy.yaml.
 * I am not very familiar with navigating Windows powershell. I was not sure how to reach the  repo root. I discoverd that I needed to use this command (Set-Location (git rev-parse --show-toplevel)
+* Initially, my workflow was deploying everythingnin the repository. I learned that the path: "." setting in the workflow uploads the entire repo. To fix this, I moved all my website files into a dedictated public/ folder and updated the workflow to --> path: './public' - I considered using .gitignore to exclude fies, but organizing into a separate folder gave me a cleaner control.
 
 ### How to Trigger Deployment
 How to trigger deployment:

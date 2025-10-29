@@ -1,4 +1,4 @@
-![Profile Pic](https://github.com/Aleashaclark/AleashaClarkWebsite/blob/master/AC_Banner.png)
+![Profile Pic](https://github.com/Aleashaclark/AleashaClarkWebsite/blob/master/public/AC_Banner.png)
 
 ## Purpose of This Repository
 The purpose of this repository is to:
